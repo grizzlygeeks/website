@@ -2,9 +2,10 @@
 [[module.imports]]
     path = 'github.com/joeroe/risotto'
 
-baseURL = 'https://grizzlygeek.net'
+baseURL = 'https://grizzlygeek.net/'
 title = 'Grizzly Geeks'
 theme = 'risotto'
+relativeURLs = false
 
 author = "Bob and Jeefy"
 copyright = "© [Grizzly Geeks](https://grizzlygeek.net)"
@@ -51,7 +52,7 @@ url = "mailto:me@jeefy.dev"
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about/"
+    url = "/about"
     weight = 10
 
 [taxonomies]
